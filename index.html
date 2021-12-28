@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="build/css/styles.css">
+  <title>CafeTime</title>
+</head>
+<body>
+  <!-- header -->
+  <header class="container header">
+    <div class="row align-items-center">
+      <div class="col-md-6 mb-5 mb-md-0">
+        <span class="text-primary">CafeTime</span>
+        <h1 class="display-2">
+          Disfruta, el cafe del momento
+        </h1>
+        <p class="fs-3">Visita nuestros locales y disfruta el placer del mejor cafe en compañia de tus amigos.
+        </p>
+        <a href="#" class="btn btn-primary">Conoce Más</a>
+      </div>
+      <div class="col-md-6">
+        <img class="img-fluid" src="img/header.jpg" alt="imagen cafe time header">
+      </div>
+
+    </div>
+  </header>
+  <!-- /header -->
+
+  <!-- contenedor -->
+  <section class="container">
+    <h2 class="fs-1 text-center" >
+      Nuestros Productos
+    </h2>
+    
+    <!-- en el siguiente parrafo se utilizó w-50 (width 50% y mx-auto para centrar el margen -> parecido al margin: 0 auto; de css) -->
+
+    <p class="text-center w-50 mx-auto">Conoce las distintas variedades de cafés, tés, pasteles y postres, todo artesanal, hecho por nuestras manos, maestras del dulce. Ambiente acogedor, especial para disfrutar los mejores momentos. Tenemos una amplia carta, que siempre te sorprenderá</p>
+    
+    <div class="row">
+      
+      <div class="col-md-4" >
+        <figure>
+          <img class="img-fluid" src="img/figura3.png" alt="imagen pastel de chocolate">
+        </figure>
+        <h3 class="text-secondary text-center fs-4" >Pastel de chocolate </h3>
+        <p class="text-center" >
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iusto ipsam nemo deleniti sunt, repudiandae facere error maxime eum repellat nam quo facilis accusantium ullam tenetur molestiae. Pariatur, exercitationem eligendi?
+        </p>
+      </div>
+
+      <div class="col-md-4">
+        <figure>
+          <img class="img-fluid" src="img/figura2.png" alt="imagen de un café">
+        </figure>
+        <h3 class="text-secondary text-center fs-4">Cafés</h3>
+        <p class="text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iusto ipsam nemo deleniti sunt, repudiandae facere error maxime eum repellat nam quo facilis accusantium ullam tenetur molestiae. Pariatur, exercitationem eligendi?
+        </p>
+      </div>
+
+      <div class="col-md-4">
+        <figure>
+          <img class="img-fluid" src="img/figura4.png" alt="imagen tiramisú">
+        </figure>
+        <h3 class="text-secondary text-center fs-4">Pastel Tiramisú</h3>
+        <p class="text-center">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iusto ipsam nemo deleniti sunt, repudiandae facere error maxime eum repellat nam quo facilis accusantium ullam tenetur molestiae. Pariatur, exercitationem eligendi?
+        </p>
+      </div>
+
+    </div>
+    <div class="d-flex justify-content-center my-5 ">
+      <a href="#" class="btn btn-secondary text-white">Mas Información</a>
+    </div>
+  </section>
+
+  <main class="container locales my-5">
+
+    <div class="d-flex justify-content-between">
+      <h2>Nuestros Locales</h2>
+      <!-- d-none para esconder d-sm-block para mostrar en sm -->
+      <a href="#" class="text-decoration-none d-none d-sm-block">Explora más Locales</a>
+    </div>
+
+    
+    <div class="row">
+      <!-- cards -->
+      <div class="col-md-6 col-lg-3">
+        <div class="card">
+          <img class="card-img-top" src="img/photo1jpg.jpeg" alt="img local 1">
+          <div class="card-body">
+            <p class="card-text fw-bold horarios" >Lu a Vi, desde las 10:00 a 22:00 hrs</p>
+            <h3 class="card-title fs-5">Lorem ipsum dolor sit.</h3>
+            <p class="card-text descripcion" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, magni sequi.</p>
+          </div>
+        </div>
+      </div>
+      <!-- /cards -->
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card">
+          <img class="card-img-top" src="img/local2.jpeg" alt="img local 2">
+          <div class="card-body">
+            <p class="card-text fw-bold horarios" >Lu a Vi, desde las 10:00 a 22:00 hrs</p>
+            <h3 class="card-title fs-5">Lorem ipsum dolor sit.</h3>
+            <p class="card-text descripcion" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, magni sequi.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card">
+          <img class="card-img-top" src="img/local3.jpeg" alt="img local 1">
+          <div class="card-body">
+            <p class="card-text fw-bold horarios" >Lu a Vi, desde las 10:00 a 22:00 hrs</p>
+            <h3 class="card-title fs-5">Lorem ipsum dolor sit.</h3>
+            <p class="card-text descripcion" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, magni sequi.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-6 col-lg-3">
+        <div class="card">
+          <img class="card-img-top" src="img/local4.jpeg" alt="img local 1">
+          <div class="card-body">
+            <p class="card-text fw-bold horarios" >Lu a Vi, desde las 10:00 a 22:00 hrs</p>
+            <h3 class="card-title fs-5">Lorem ipsum dolor sit.</h3>
+            <p class="card-text descripcion" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, magni sequi.</p>
+          </div>
+        </div>
+      </div>
+
+      
+
+
+    </div>
+   
+
+    
+  
+  
+  </main>
+</body>
+</html>

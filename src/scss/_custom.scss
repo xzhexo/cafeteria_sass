@@ -1,0 +1,14 @@
+$cafe: #742020;
+$cafeClaro:  #92624a;
+
+// asignar a la paleta de colores de boostrap
+
+$primary: $cafe;
+$secondary: $cafeClaro; 
+
+// tipografia
+
+$display-font-weight: 900;
+$heading-font-weight: 700; 
+
+@import '../../node_modules/bootstrap/scss/bootstrap.scss';

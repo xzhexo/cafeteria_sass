@@ -47,6 +47,7 @@
       
       <div class="col-md-4 text-center" >
         <figure>
+          <!-- considerar cambiar imagen por que rompe el flujo -->
           <img class="img-fluid" src="img/figura3.png" alt="imagen pastel de chocolate">
         </figure>
         <h3 class="text-secondary text-center fs-4" >Pastel de chocolate </h3>
@@ -54,7 +55,7 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iusto ipsam nemo deleniti sunt, repudiandae facere error maxime eum repellat nam quo facilis accusantium ullam tenetur molestiae. Pariatur, exercitationem eligendi?
         </p>
         <!-- Button trigger modal -->
-        <button type="button" class=" btn btn-dark " data-bs-toggle="modal" data-bs-target="#exampleModal"> Ver Más </button>
+        <button type="button" class=" btn btn-secondary " data-bs-toggle="modal" data-bs-target="#exampleModal"> Ver Más </button>
       </div>
 
       <div class="col-md-4 text-center">
@@ -78,13 +79,18 @@
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iusto ipsam nemo deleniti sunt, repudiandae facere error maxime eum repellat nam quo facilis accusantium ullam tenetur molestiae. Pariatur, exercitationem eligendi?
         </p>
         <!-- Button trigger modal -->
-        <button type="button" class=" btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal2"> Ver Más </button>
+        <button type="button" class=" btn btn-secondary " data-bs-toggle="modal" data-bs-target="#exampleModal2"> Ver Más </button>
       </div>
 
     </div>
-    <div class="d-flex justify-content-center my-5 ">
-      <a href="#" class="btn btn-secondary text-white">Mas Información</a>
-    </div>
+     <div class="d-flex justify-content-center my-5 ">
+
+      <!-- cambio de anchor btn a modal
+        
+        <a href="#" class="btn btn-secondary text-white">Mas Información</a>
+    </div> -->
+
+    <button type="button" class=" btn btn-secondary " data-bs-toggle="modal" data-bs-target="#exampleModal7"> Mas Información </button>
   </section>
 
   <main class="container locales my-5">
@@ -101,10 +107,11 @@
       <div class="col-md-6 col-lg-3">
         <div class="card">
           <img class="card-img-top" src="img/photo1jpg.jpeg" alt="img local 1">
-          <div class="card-body">
+          <div class="card-body text-center">
             <p class="card-text fw-bold horarios text-center" >Lu a Vi, desde las 10:00 a 22:00 hrs</p>
             <h3 class="card-title fs-5 text-center">Lorem ipsum dolor sit.</h3>
             <p class="card-text descripcion text-center" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, magni sequi.</p>
+            <button type="button" class=" btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal3"> Ver Más </button>
           </div>
         </div>
       </div>
@@ -113,10 +120,11 @@
       <div class="col-md-6 col-lg-3">
         <div class="card">
           <img class="card-img-top" src="img/local2.jpeg" alt="img local 2">
-          <div class="card-body">
+          <div class="card-body text-center">
             <p class="card-text fw-bold horarios text-center" >Lu a Vi, desde las 10:00 a 22:00 hrs</p>
             <h3 class="card-title fs-5 text-center">Lorem ipsum dolor sit.</h3>
             <p class="card-text descripcion text-center" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, magni sequi.</p>
+            <button type="button" class=" btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal4"> Ver Más </button>
           </div>
         </div>
       </div>
@@ -124,10 +132,11 @@
       <div class="col-md-6 col-lg-3">
         <div class="card">
           <img class="card-img-top" src="img/local3.jpeg" alt="img local 1">
-          <div class="card-body">
+          <div class="card-body text-center">
             <p class="card-text fw-bold horarios text-center" >Lu a Vi, desde las 10:00 a 22:00 hrs</p>
             <h3 class="card-title fs-5 text-center">Lorem ipsum dolor sit.</h3>
             <p class="card-text descripcion text-center" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, magni sequi.</p>
+            <button type="button" class=" btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal5"> Ver Más </button>
           </div>
         </div>
       </div>
@@ -135,10 +144,11 @@
       <div class="col-md-6 col-lg-3">
         <div class="card">
           <img class="card-img-top" src="img/local4.jpeg" alt="img local 1">
-          <div class="card-body">
+          <div class="card-body text-center">
             <p class="card-text fw-bold horarios text-center" >Lu a Vi, desde las 10:00 a 22:00 hrs</p>
             <h3 class="card-title fs-5 text-center">Lorem ipsum dolor sit.</h3>
             <p class="card-text descripcion text-center" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, magni sequi.</p>
+            <button type="button" class=" btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal6"> Ver Más </button>
           </div>
         </div>
        
@@ -427,6 +437,113 @@
   </div>
 </div>
 <!-- /modal2 -->
+
+<!-- Modal3 -->
+<!-- local1 -->
+<div class="modal fade " id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Lorem Ipsum</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=400&amp;height=400&amp;hl=en&amp;q=isidora goyonechea 3050&amp;t=&amp;z=18&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.fridaynightfunkin.net/friday-night-funkin-mods-fnf-play-online/">FNF Online Games</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary">Haz Tu Reserva</button>
+       <!-- boton redundante de cierre -->
+        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /modal3 -->
+
+<!-- Modal4 -->
+<div class="modal fade " id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Lorem Ipsum</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Lorem ipsum dolor sit.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary">Haz Tu Reserva</button>
+       <!-- boton redundante de cierre -->
+        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /modal4 -->
+
+<!-- Modal5 -->
+<div class="modal fade " id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Lorem Ipsum</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Lorem ipsum dolor sit.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary">Haz Tu Reserva</button>
+       <!-- boton redundante de cierre -->
+        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /modal5 -->
+
+<!-- Modal6 -->
+<div class="modal fade " id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Lorem Ipsum</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Lorem ipsum dolor sit.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary">Haz Tu Reserva</button>
+       <!-- boton redundante de cierre -->
+        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /modal6 -->
+
+<!-- Modal7 -->
+<div class="modal fade " id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <!-- Vertically centered scrollable modal -->
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Lorem, ipsum dolor.</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit perferendis, tenetur animi illo nulla, itaque, vel delectus debitis aperiam laudantium necessitatibus? Magnam iure adipisci iste provident odio in a repudiandae? Deserunt, esse quibusdam iusto labore laborum, repellendus nulla ipsa explicabo amet officiis odit. Odio tempora, suscipit, sapiente cumque rem ut, minus aperiam nobis voluptas atque non? Consequuntur facilis molestias, mollitia in perspiciatis sit doloribus qui temporibus commodi! Placeat ipsum dolorum impedit consequatur recusandae optio porro molestiae fugiat deserunt ratione iure itaque aspernatur vel corrupti debitis natus, libero unde perferendis ex magni facere labore obcaecati illum. Rem nisi, vitae id repudiandae repellendus at fugit nostrum praesentium placeat, delectus qui, corporis facilis a voluptatem. Consequuntur facilis dicta inventore quae modi quisquam minus provident at ducimus quas laudantium labore explicabo, error eveniet numquam hic voluptates ad possimus ratione reprehenderit tenetur delectus in fugit reiciendis. Explicabo accusamus vitae repudiandae illo architecto sequi tempora laborum at amet earum delectus vel, itaque repellat atque cupiditate est, aliquid sit nam? Aperiam fugiat vero tempora ipsam minus rerum nisi officia voluptatem, quos veniam impedit, beatae repellat? At quasi voluptates doloremque tenetur ullam id repudiandae quae similique facilis magni eius natus aut esse reiciendis minus maxime itaque, consequuntur culpa adipisci quaerat ad aliquam nisi nihil unde. Odio corrupti in enim architecto doloremque, harum impedit eveniet eum porro, culpa autem tempora numquam, nemo dolorem obcaecati. Sapiente, possimus, non, quia illum aliquam tenetur ut neque iusto accusantium delectus magni beatae assumenda obcaecati nobis? Voluptates eveniet dignissimos ea eius aliquid odio, numquam fugit iste iusto assumenda veritatis labore id perspiciatis, eaque, repudiandae unde? Magni ratione quas perspiciatis iure nesciunt in inventore! Error saepe sequi voluptatibus natus modi vitae ullam explicabo eos quis, optio, in voluptas minus! Doloribus aut ratione, odio quasi dolor reprehenderit quas libero, laboriosam veniam, quos incidunt corrupti totam laborum.</p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary">Haz Tu Pedido</button>
+       <!-- boton redundante de cierre -->
+        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button> -->
+      </div>
+    </div>
+  </div>
+</div>
+<!-- /modal7 -->
 </body>
 
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

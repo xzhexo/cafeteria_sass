@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,11 +8,15 @@
   <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="build/css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@400;700;900&display=swap"
+    rel="stylesheet">
+  <!-- <link rel="stylesheet" href="build/css/styles.css"> -->
+  <!-- purge css -->
+  <link rel="stylesheet" href="build/css/cafetime.css">
   <script src="https://kit.fontawesome.com/f6b5f5e3f8.js" crossorigin="anonymous"></script>
   <title>CafeTime</title>
 </head>
+
 <body>
   <!-- header -->
   <header class="container header">
@@ -35,55 +40,60 @@
 
   <!-- contenedor -->
   <section class="container">
-    <h2 class="fs-1 text-center" >
+    <h2 class="fs-1 text-center">
       Nuestros Productos
     </h2>
-    
+
     <!-- en el siguiente parrafo se utilizó w-50 (width 50% y mx-auto para centrar el margen -> parecido al margin: 0 auto; de css) -->
 
-    <p class="text-center w-50 mx-auto">Conoce las distintas variedades de cafés, tés, pasteles y postres, todo artesanal, hecho por nuestras manos, maestras del dulce. Ambiente acogedor, especial para disfrutar los mejores momentos. Tenemos una amplia carta, que siempre te sorprenderá</p>
-    
+    <p class="text-center w-50 mx-auto">Conoce las distintas variedades de cafés, tés, pasteles y postres, todo
+      artesanal, hecho por nuestras manos, maestras del dulce. Ambiente acogedor, especial para disfrutar los mejores
+      momentos. Tenemos una amplia carta, que siempre te sorprenderá</p>
+
     <div class="row">
-      
-      <div class="col-md-4 text-center" >
+
+      <div class="col-md-4 text-center">
         <figure>
           <!-- considerar cambiar imagen por que rompe el flujo  // Miguel sugerio usar photoshop para igualar imagenes -->
-          <img class="img-fluid" src="img/figura3.png"  alt="imagen pastel de chocolate">
+          <img class="img-fluid" src="img/figura3.png" alt="imagen pastel de chocolate">
         </figure>
-        <h3 class="text-secondary text-center fs-4" >Pastel de chocolate</h3>
+        <h3 class="text-secondary text-center fs-4">Pastel de Chocolate</h3>
         <!-- Button trigger modal -->
-        <button type="button" class=" btn btn-secondary " data-bs-toggle="modal" data-bs-target="#exampleModal"> Ver Más </button>
+        <button type="button" class=" btn btn-secondary " data-bs-toggle="modal" data-bs-target="#exampleModal"> Ver Más
+        </button>
       </div>
 
       <div class="col-md-4 text-center">
         <figure>
-          <img class="img-fluid" src="img/figura2.png"  alt="imagen de un café">
+          <img class="img-fluid" src="img/figura2.png" alt="imagen de un café">
         </figure>
         <h3 class="text-secondary text-center fs-4">Cafés</h3>
-      
+
         <!-- Button trigger modal -->
-        <button type="button" class=" btn btn-secondary " data-bs-toggle="modal" data-bs-target="#exampleModal1"> Ver Más </button>
+        <button type="button" class=" btn btn-secondary " data-bs-toggle="modal" data-bs-target="#exampleModal1"> Ver
+          Más </button>
       </div>
 
       <div class="col-md-4 text-center">
         <figure>
-          <img class="img-fluid" src="img/figura4.png"  alt="imagen tiramisú">
+          <img class="img-fluid" src="img/figura4.png" alt="imagen tiramisú">
         </figure>
-        <h3 class="text-secondary text-center fs-4">Pastel Tiramisú</h3>
-       
+        <h3 class="text-secondary text-center fs-4">Postres Helados</h3>
+
         <!-- Button trigger modal -->
-        <button type="button" class=" btn btn-secondary " data-bs-toggle="modal" data-bs-target="#exampleModal2"> Ver Más </button>
+        <button type="button" class=" btn btn-secondary " data-bs-toggle="modal" data-bs-target="#exampleModal2"> Ver
+          Más </button>
       </div>
 
     </div>
-     <div class="d-flex justify-content-center my-5 ">
+    <div class="d-flex justify-content-center my-5 ">
 
-      <!-- cambio de anchor btn a modal
-        
-        <a href="#" class="btn btn-secondary text-white">Mas Información</a>
-    </div> -->
+      <!-- cambio de anchor btn a modal-->
 
-    <button type="button" class=" btn btn-secondary " data-bs-toggle="modal" data-bs-target="#exampleModal7"> Mas Información </button>
+      <a href="#" class="btn btn-secondary text-white">Mas Información</a>
+    </div>
+
+
   </section>
 
   <main class="container locales my-5">
@@ -101,10 +111,11 @@
         <div class="card">
           <img class="card-img-top" src="img/photo1jpg.jpeg" alt="img local 1">
           <div class="card-body text-center">
-            <p class="card-text fw-bold horarios text-center" >Lu a Vi, desde las 10:00 a 22:00 hrs</p>
-            <h3 class="card-title fs-5 text-center">Lorem ipsum dolor sit.</h3>
-            <p class="card-text descripcion text-center" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, magni sequi.</p>
-            <button type="button" class=" btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal3"> Ver Más </button>
+            <p class="card-text fw-bold horarios text-center">Lu a Vi, desde las 10:00 a 22:00 hrs</p>
+            <h3 class="card-title fs-5 text-center">Local Las Condes.</h3>
+            <p class="card-text descripcion text-center">Local ubicado en Las Condes.</p>
+            <button type="button" class=" btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal3"> Ver
+              Más </button>
           </div>
         </div>
       </div>
@@ -114,10 +125,11 @@
         <div class="card">
           <img class="card-img-top" src="img/local2.jpeg" alt="img local 2">
           <div class="card-body text-center">
-            <p class="card-text fw-bold horarios text-center" >Lu a Vi, desde las 10:00 a 22:00 hrs</p>
-            <h3 class="card-title fs-5 text-center">Lorem ipsum dolor sit.</h3>
-            <p class="card-text descripcion text-center" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, magni sequi.</p>
-            <button type="button" class=" btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal4"> Ver Más </button>
+            <p class="card-text fw-bold horarios text-center">Lu a Vi, desde las 10:00 a 22:00 hrs</p>
+            <h3 class="card-title fs-5 text-center">Local Vitacura.</h3>
+            <p class="card-text descripcion text-center">Local ubicado en Vitacura.</p>
+            <button type="button" class=" btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal4"> Ver
+              Más </button>
           </div>
         </div>
       </div>
@@ -126,10 +138,11 @@
         <div class="card">
           <img class="card-img-top" src="img/local3.jpeg" alt="img local 1">
           <div class="card-body text-center">
-            <p class="card-text fw-bold horarios text-center" >Lu a Vi, desde las 10:00 a 22:00 hrs</p>
-            <h3 class="card-title fs-5 text-center">Lorem ipsum dolor sit.</h3>
-            <p class="card-text descripcion text-center" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, magni sequi.</p>
-            <button type="button" class=" btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal5"> Ver Más </button>
+            <p class="card-text fw-bold horarios text-center">Lu a Vi, desde las 10:00 a 22:00 hrs</p>
+            <h3 class="card-title fs-5 text-center">Local Providencia.</h3>
+            <p class="card-text descripcion text-center">Local hubicado en Providencia.</p>
+            <button type="button" class=" btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal5"> Ver
+              Más </button>
           </div>
         </div>
       </div>
@@ -138,27 +151,28 @@
         <div class="card">
           <img class="card-img-top" src="img/local4.jpeg" alt="img local 1">
           <div class="card-body text-center">
-            <p class="card-text fw-bold horarios text-center" >Lu a Vi, desde las 10:00 a 22:00 hrs</p>
-            <h3 class="card-title fs-5 text-center">Lorem ipsum dolor sit.</h3>
-            <p class="card-text descripcion text-center" >Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, magni sequi.</p>
-            <button type="button" class=" btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal6"> Ver Más </button>
+            <p class="card-text fw-bold horarios text-center">Lu a Vi, desde las 10:00 a 22:00 hrs</p>
+            <h3 class="card-title fs-5 text-center">Local Santiago Centro.</h3>
+            <p class="card-text descripcion text-center">Local ubicado en Santiago Centro.</p>
+            <button type="button" class=" btn btn-primary " data-bs-toggle="modal" data-bs-target="#exampleModal6"> Ver
+              Más </button>
           </div>
         </div>
-       
+
       </div>
 
-      
+
 
 
     </div>
     <!--  /row cards -->
-   
+
     <!-- aplicaciones moviles -->
     <section class="app-movil container mt-5">
-      <div class="row" >
+      <div class="row">
         <div class="offset-md-4 col-md-4">
           <span class="d-block mx-auto text-primary">Cafetime</span>
-          <p class="text-center fw-bold mt-5 fs-4">Mantente conectado, Descarga Coffe Time App</p> 
+          <p class="text-center fw-bold mt-5 fs-4">Mantente conectado, Descarga Coffe Time App</p>
           <div class="d-flex gap-4">
             <div class="col">
               <a href="#">
@@ -181,375 +195,516 @@
   </main>
 
   <!-- footer -->
-<footer class="bg-secondary text-center text-white">
-  <!-- Grid container -->
-  <div class="container p-4">
-    <!-- Section: Social media  // colorear iconos -->
-    <section class="mb-4">
-      <!-- Facebook -->
-      <a class="btn btn-outline-light btn-floating m-1 rounded-circle btn-info" href="#!" role="button"
-        ><i class="fab fa-facebook-f"></i
-      ></a>
+  <footer class="bg-secondary text-center text-white">
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!-- Section: Social media  // colorear iconos -->
+      <section class="mb-4">
+        <!-- Facebook -->
+        <a class="btn btn-outline-light btn-floating m-1 rounded-circle btn-info" href="#!" role="button"><i
+            class="fab fa-facebook-f"></i></a>
 
-      <!-- Google -->
-      <a class="btn btn-outline-light btn-floating m-1 rounded-circle btn-danger" href="#!" role="button"
-        ><i class="fab fa-google"></i
-      ></a>
+        <!-- Google -->
+        <a class="btn btn-outline-light btn-floating m-1 rounded-circle btn-danger" href="#!" role="button"><i
+            class="fab fa-google"></i></a>
 
-       <!-- Twitter -->
-       <a class="btn btn-outline-light btn-floating m-1 rounded-circle btn-info" href="#!" role="button"
-       ><i class="fab fa-twitter"></i
-     ></a>
+        <!-- Twitter -->
+        <a class="btn btn-outline-light btn-floating m-1 rounded-circle btn-info" href="#!" role="button"><i
+            class="fab fa-twitter"></i></a>
 
-      <!-- Instagram -->
-      <a class="btn btn-outline-light btn-floating m-1 rounded-circle btn-danger" href="#!" role="button"
-        ><i class="fab fa-instagram"></i
-      ></a>
+        <!-- Instagram -->
+        <a class="btn btn-outline-light btn-floating m-1 rounded-circle btn-danger" href="#!" role="button"><i
+            class="fab fa-instagram"></i></a>
 
-      <!-- Linkedin -->
-      <a class="btn btn-outline-light btn-floating m-1 rounded-circle btn-info" href="#!" role="button"
-        ><i class="fab fa-linkedin-in"></i
-      ></a>
+        <!-- Linkedin -->
+        <a class="btn btn-outline-light btn-floating m-1 rounded-circle btn-info" href="#!" role="button"><i
+            class="fab fa-linkedin-in"></i></a>
 
-      <!-- Github -->
-      <!-- <a class="btn btn-outline-light btn-floating m-1 rounded-circle" href="#!" role="button" -->
+        <!-- Github -->
+        <!-- <a class="btn btn-outline-light btn-floating m-1 rounded-circle" href="#!" role="button" -->
         <!-- ><i class="fab fa-github"></i -->
-      <!-- ></a> -->
-    </section>
-    <!-- Section: Social media -->
+        <!-- ></a> -->
+      </section>
+      <!-- Section: Social media -->
 
-    <!-- Section: Form -->
-    <section class="">
-      <form action="">
+      <!-- Section: Form -->
+      <section class="">
+        <form action="">
+          <!--Grid row-->
+          <div class="row d-flex justify-content-center">
+            <!--Grid column-->
+            <div class="col-auto">
+              <p class="pt-2">
+                <strong>Registrate a nuestro newsletter</strong>
+              </p>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-md-5 col-12">
+              <!-- Email input -->
+              <div class="form-outline form-white mb-4">
+                <input type="email" id="form5Example21" class="form-control" />
+                <label class="form-label" for="form5Example21"> Ingresa tu Email </label>
+              </div>
+            </div>
+            <!--Grid column-->
+
+            <!--Grid column-->
+            <div class="col-auto">
+              <!-- Submit button -->
+              <button type="submit" class="btn btn-outline-light mb-4">
+                Suscribirse
+              </button>
+            </div>
+            <!--Grid column-->
+          </div>
+          <!--Grid row-->
+        </form>
+      </section>
+      <!-- Section: Form -->
+
+      <!-- Section: Text -->
+      <section class="mb-4">
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
+          repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
+          eum harum corrupti dicta, aliquam sequi voluptate quas.
+        </p>
+      </section>
+      <!-- Section: Text -->
+
+      <!-- Section: Links -->
+      <section class="">
         <!--Grid row-->
-        <div class="row d-flex justify-content-center">
+        <div class="row">
           <!--Grid column-->
-          <div class="col-auto">
-            <p class="pt-2">
-              <strong>Registrate a nuestro newsletter</strong>
-            </p>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Conocenos</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white text-decoration-none">Trabaja con Nosotros</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white text-decoration-none">Sobre CaffeTime</a>
+              </li>
+            
+            </ul>
           </div>
           <!--Grid column-->
 
           <!--Grid column-->
-          <div class="col-md-5 col-12">
-            <!-- Email input -->
-            <div class="form-outline form-white mb-4">
-              <input type="email" id="form5Example21" class="form-control" />
-              <label class="form-label" for="form5Example21"> Ingresa tu Email </label>
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Ayuda al Cliente</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white text-decoration-none">Como comprar en CoffeTime</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white text-decoration-none">Preguntas Frecuentes</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white text-decoration-none">Nuestros Locales</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white text-decoration-none">Portal de atencion al Cliente</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Servicios CoffeTime</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white text-decoration-none">Delivery</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white text-decoration-none">Cursos de Cafeteria</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white text-decoration-none">Cursos de Pasteleria</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white text-decoration-none">Work Café</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+
+          <!--Grid column-->
+          <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+            <h5 class="text-uppercase">Tu Cuenta CoffeTime</h5>
+
+            <ul class="list-unstyled mb-0">
+              <li>
+                <a href="#!" class="text-white text-decoration-none">Inicio Sesion</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white text-decoration-none">Crea tu Cuenta</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white text-decoration-none">Recuperacion de Cuentas</a>
+              </li>
+              <li>
+                <a href="#!" class="text-white text-decoration-none">Partners</a>
+              </li>
+            </ul>
+          </div>
+          <!--Grid column-->
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+      © 2021 Copyright:
+      <a class="text-white text-decoration-none" href="#">Sergio Salvo</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- /footer -->
+
+  <!-- Modal -->
+ 
+  <!-- /modal -->
+ <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+ <div class="modal-dialog modal-dialog-centered">
+   <div class="modal-content d-flex">
+     <div class="modal-header">
+       <h5 class="modal-title text-primary" id="exampleModalLabel">
+        Pastel de Chocolate</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+     </div>
+      <div class="modal-body">
+
+        <div class="row">
+          <div class="col-md-6">
+            <img src="/img/figura3.png" alt="pastel chocolate" width="200px">
+          </div> 
+          
+          <div class="col-md-6 ms1">
+            <p><i>Exquisita torta de chocolate con avellana hecha por nuestros pasteleros expertos.</i></p>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <div class="row">
+            <div class="col-md-6">
+              <p class="fw-bold"><i>Precio</i></p>
+            </div>
+
+            <div class="col-md-6 fw-bold">
+              <p><i>Desde $2.990</i></p>
+            </div>
+            <div class="col-md-12">
+              <p><i>Los precios varian según el tamaño del Pastel.</i></p>
             </div>
           </div>
-          <!--Grid column-->
 
-          <!--Grid column-->
-          <div class="col-auto">
-            <!-- Submit button -->
-            <button type="submit" class="btn btn-outline-light mb-4">
-              Suscribirse
-            </button>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary">Hacer Pedido</button>
+          <!-- boton redundante de cierre -->
+          <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button> -->
+        </div>
+      </div>
+
+        </div>
+      </div>
+   </div>
+ </div>  
+ </div>
+
+  <!-- modal1-->
+  <div class="modal fade " id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Cafés</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+
+          <div class="row">
+            <div class="col-md-6">
+              <img src="/img/figura2.png" alt="pastel chocolate" width="200px">
+            </div> 
+            
+            <div class="col-md-6 ms1">
+              <p><i> Contamos con diversos tipos de grano de la mejor calidad para nuestra clientela.</i></p>
+            </div>
           </div>
-          <!--Grid column-->
+  
+          <div class="modal-footer">
+            <div class="row">
+              <div class="col-md-6">
+                <p class="fw-bold"><i>Precio</i></p>
+              </div>
+  
+              <div class="col-md-6 fw-bold">
+                <p><i>Desde $2.000</i></p>
+              </div>
+              <div class="col-md-12">
+                <p><i>Los precios varian según el tipo de grano.</i></p>
+              </div>
+            </div>
+  
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary">Hacer Pedido</button>
+            <!-- boton redundante de cierre -->
+            <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button> -->
+          </div>
         </div>
-        <!--Grid row-->
-      </form>
-    </section>
-    <!-- Section: Form -->
+      </div>
+    </div>
+  </div>
+  <!-- /modal1 -->
 
-    <!-- Section: Text -->
-    <section class="mb-4">
-      <p>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt distinctio earum
-        repellat quaerat voluptatibus placeat nam, commodi optio pariatur est quia magnam
-        eum harum corrupti dicta, aliquam sequi voluptate quas.
-      </p>
-    </section>
-    <!-- Section: Text -->
-
-    <!-- Section: Links -->
-    <section class="">
-      <!--Grid row-->
-      <div class="row">
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
-
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white text-decoration-none" >Link 1</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white text-decoration-none" >Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white text-decoration-none">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white text-decoration-none">Link 4</a>
-            </li>
-          </ul>
+  <!-- modal2 -->
+  <div class="modal fade " id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Postres Helados</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <!--Grid column-->
+        <div class="modal-body">
 
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
-
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white text-decoration-none">Link 1</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white text-decoration-none">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white text-decoration-none">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white text-decoration-none">Link 4</a>
-            </li>
-          </ul>
+          <div class="row">
+            <div class="col-md-6">
+              <img src="/img/figura4.png" alt="pastel chocolate" width="200px">
+            </div> 
+            
+            <div class="col-md-6 ms1">
+              <p><i> Contamos con diversos tipos de postres Helados de la mejor calidad para nuestra clientela.</i></p>
+            </div>
+          </div>
+  
+          <div class="modal-footer">
+            <div class="row">
+              <div class="col-md-6">
+                <p class="fw-bold"><i>Precio</i></p>
+              </div>
+  
+              <div class="col-md-6 fw-bold">
+                <p><i>Desde $2.990</i></p>
+              </div>
+              <div class="col-md-12">
+                <p><i>Los precios varian según el tipo de postre helado.</i></p>
+              </div>
+            </div>
+  
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary">Hacer Pedido</button>
+            <!-- boton redundante de cierre -->
+            <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button> -->
+          </div>
         </div>
-        <!--Grid column-->
+      </div>
+    </div>
+  </div>
+  <!-- /modal2 -->
 
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
-
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white text-decoration-none">Link 1</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white text-decoration-none">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white text-decoration-none">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white text-decoration-none">Link 4</a>
-            </li>
-          </ul>
+  <!-- Modal3 -->
+  <!-- local1 -->
+  <div class="modal fade " id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Local Las Condes</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
-        <!--Grid column-->
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit.</p>
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
+                marginheight="0" marginwidth="0"
+                src="https://maps.google.com/maps?width=400&amp;height=400&amp;hl=en&amp;q=isidora goyonechea 3050&amp;t=&amp;z=18&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                href="https://www.fridaynightfunkin.net/friday-night-funkin-mods-fnf-play-online/">FNF Online Games</a>
+            </div>
+            <style>
+              .mapouter {
+                position: relative;
+                text-align: right;
+                width: 100%;
+                height: 400px;
+              }
 
-        <!--Grid column-->
-        <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-          <h5 class="text-uppercase">Links</h5>
+              .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                width: 100%;
+                height: 400px;
+              }
 
-          <ul class="list-unstyled mb-0">
-            <li>
-              <a href="#!" class="text-white text-decoration-none">Link 1</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white text-decoration-none">Link 2</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white text-decoration-none">Link 3</a>
-            </li>
-            <li>
-              <a href="#!" class="text-white text-decoration-none">Link 4</a>
-            </li>
-          </ul>
+              .gmap_iframe {
+                height: 400px !important;
+              }
+            </style>
+          </div>
         </div>
-        <!--Grid column-->
-      </div>
-      <!--Grid row-->
-    </section>
-    <!-- Section: Links -->
-  </div>
-  <!-- Grid container -->
-
-  <!-- Copyright -->
-  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2021 Copyright:
-    <a class="text-white text-decoration-none" href="#">Sergio Salvo</a>
-  </div>
-  <!-- Copyright -->
-</footer>
- <!-- /footer -->
-
- <!-- Modal -->
-<div class="modal fade " id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Pastel de chocolate</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p class="text-center" >
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iusto ipsam nemo deleniti sunt, repudiandae facere error maxime eum repellat nam quo facilis accusantium ullam tenetur molestiae. Pariatur, exercitationem eligendi?
-        </p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary">Hacer Pedido</button>
-       <!-- boton redundante de cierre -->
-        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button> -->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary">Haz Tu Reserva</button>
+          <!-- boton redundante de cierre -->
+          <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button> -->
+        </div>
       </div>
     </div>
   </div>
-</div>
-<!-- /modal -->
+  <!-- /modal3 -->
 
-<!-- modal1-->
-<div class="modal fade " id="exampleModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Lorem Ipsum</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p class="text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iusto ipsam nemo deleniti sunt, repudiandae facere error maxime eum repellat nam quo facilis accusantium ullam tenetur molestiae. Pariatur, exercitationem eligendi?
-        </p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary">Hacer Pedido</button>
-       <!-- boton redundante de cierre -->
-        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button> -->
+  <!-- Modal4 -->
+  <div class="modal fade " id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Local Vitacura</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit.</p>
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
+                marginheight="0" marginwidth="0"
+                src="https://maps.google.com/maps?width=400&amp;height=400&amp;hl=en&amp;q=Av. Manquehue Nte. 1545, Vitacura, Las Condes, Región Metropolitana, Chile&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                href="https://www.fridaynightfunkin.net/friday-night-funkin-mods-fnf-play-online/">FNF</a></div>
+            <style>
+              .mapouter {
+                position: relative;
+                text-align: right;
+                width: 100%;
+                height: 400px;
+              }
+
+              .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                width: 100%;
+                height: 400px;
+              }
+
+              .gmap_iframe {
+                height: 400px !important;
+              }
+            </style>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary">Haz Tu Reserva</button>
+          <!-- boton redundante de cierre -->
+          <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button> -->
+        </div>
       </div>
     </div>
   </div>
-</div>
-<!-- /modal1 -->
+  <!-- /modal4 -->
 
-<!-- modal2 -->
-<div class="modal fade " id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Lorem Ipsum</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p class="text-center">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Id iusto ipsam nemo deleniti sunt, repudiandae facere error maxime eum repellat nam quo facilis accusantium ullam tenetur molestiae. Pariatur, exercitationem eligendi?
-        </p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary">Hacer Pedido</button>
-       <!-- boton redundante de cierre -->
-        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button> -->
+  <!-- Modal5 -->
+  <div class="modal fade " id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Local Providencia</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit.</p>
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
+                marginheight="0" marginwidth="0"
+                src="https://maps.google.com/maps?width=400&amp;height=400&amp;hl=en&amp;q=Av. Providencia 2198, Providencia, Región Metropolitana, Chile&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                href="https://www.fridaynightfunkin.net/friday-night-funkin-mods-fnf-play-online/">FNF</a></div>
+            <style>
+              .mapouter {
+                position: relative;
+                text-align: right;
+                width: 100%;
+                height: 400px;
+              }
+
+              .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                width: 100%;
+                height: 400px;
+              }
+
+              .gmap_iframe {
+                height: 400px !important;
+              }
+            </style>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary">Haz Tu Reserva</button>
+          <!-- boton redundante de cierre -->
+          <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button> -->
+        </div>
       </div>
     </div>
   </div>
-</div>
-<!-- /modal2 -->
+  <!-- /modal5 -->
 
-<!-- Modal3 -->
-<!-- local1 -->
-<div class="modal fade " id="exampleModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Local Las Condes</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p>Lorem ipsum dolor sit.</p>
-        <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=400&amp;height=400&amp;hl=en&amp;q=isidora goyonechea 3050&amp;t=&amp;z=18&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.fridaynightfunkin.net/friday-night-funkin-mods-fnf-play-online/">FNF Online Games</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary">Haz Tu Reserva</button>
-       <!-- boton redundante de cierre -->
-        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button> -->
+  <!-- Modal6 -->
+  <div class="modal fade " id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Local Santiago Centro</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <p>Lorem ipsum dolor sit.</p>
+          <div class="mapouter">
+            <div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no"
+                marginheight="0" marginwidth="0"
+                src="https://maps.google.com/maps?width=400&amp;height=400&amp;hl=en&amp;q=Patio Centro - Bandera 101, Santiago, Región Metropolitana, Chile&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a
+                href="https://www.fridaynightfunkin.net/friday-night-funkin-mods-fnf-play-online/">FNF</a></div>
+            <style>
+              .mapouter {
+                position: relative;
+                text-align: right;
+                width: 100%;
+                height: 400px;
+              }
+
+              .gmap_canvas {
+                overflow: hidden;
+                background: none !important;
+                width: 100%;
+                height: 400px;
+              }
+
+              .gmap_iframe {
+                height: 400px !important;
+              }
+            </style>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary">Haz Tu Reserva</button>
+          <!-- boton redundante de cierre -->
+          <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button> -->
+        </div>
       </div>
     </div>
   </div>
-</div>
-<!-- /modal3 -->
+  <!-- /modal6 -->
 
-<!-- Modal4 -->
-<div class="modal fade " id="exampleModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Local Vitacura</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p>Lorem ipsum dolor sit.</p>
-        <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=400&amp;height=400&amp;hl=en&amp;q=Av. Manquehue Nte. 1545, Vitacura, Las Condes, Región Metropolitana, Chile&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.fridaynightfunkin.net/friday-night-funkin-mods-fnf-play-online/">FNF</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary">Haz Tu Reserva</button>
-       <!-- boton redundante de cierre -->
-        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button> -->
-      </div>
-    </div>
-  </div>
-</div>
-<!-- /modal4 -->
 
-<!-- Modal5 -->
-<div class="modal fade " id="exampleModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Local Providencia</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p>Lorem ipsum dolor sit.</p>
-        <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=400&amp;height=400&amp;hl=en&amp;q=Av. Providencia 2198, Providencia, Región Metropolitana, Chile&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.fridaynightfunkin.net/friday-night-funkin-mods-fnf-play-online/">FNF</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary">Haz Tu Reserva</button>
-       <!-- boton redundante de cierre -->
-        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button> -->
-      </div>
-    </div>
-  </div>
-</div>
-<!-- /modal5 -->
-
-<!-- Modal6 -->
-<div class="modal fade " id="exampleModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog modal-dialog-centered">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Local Santiago Centro</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p>Lorem ipsum dolor sit.</p>
-        <div class="mapouter"><div class="gmap_canvas"><iframe class="gmap_iframe" width="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?width=400&amp;height=400&amp;hl=en&amp;q=Patio Centro - Bandera 101, Santiago, Región Metropolitana, Chile&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe><a href="https://www.fridaynightfunkin.net/friday-night-funkin-mods-fnf-play-online/">FNF</a></div><style>.mapouter{position:relative;text-align:right;width:100%;height:400px;}.gmap_canvas {overflow:hidden;background:none!important;width:100%;height:400px;}.gmap_iframe {height:400px!important;}</style></div>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary">Haz Tu Reserva</button>
-       <!-- boton redundante de cierre -->
-        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button> -->
-      </div>
-    </div>
-  </div>
-</div>
-<!-- /modal6 -->
-
-<!-- Modal7 -->
-<div class="modal fade " id="exampleModal7" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <!-- Vertically centered scrollable modal -->
-  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Lorem, ipsum dolor.</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-      </div>
-      <div class="modal-body">
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit perferendis, tenetur animi illo nulla, itaque, vel delectus debitis aperiam laudantium necessitatibus? Magnam iure adipisci iste provident odio in a repudiandae? Deserunt, esse quibusdam iusto labore laborum, repellendus nulla ipsa explicabo amet officiis odit. Odio tempora, suscipit, sapiente cumque rem ut, minus aperiam nobis voluptas atque non? Consequuntur facilis molestias, mollitia in perspiciatis sit doloribus qui temporibus commodi! Placeat ipsum dolorum impedit consequatur recusandae optio porro molestiae fugiat deserunt ratione iure itaque aspernatur vel corrupti debitis natus, libero unde perferendis ex magni facere labore obcaecati illum. Rem nisi, vitae id repudiandae repellendus at fugit nostrum praesentium placeat, delectus qui, corporis facilis a voluptatem. Consequuntur facilis dicta inventore quae modi quisquam minus provident at ducimus quas laudantium labore explicabo, error eveniet numquam hic voluptates ad possimus ratione reprehenderit tenetur delectus in fugit reiciendis. Explicabo accusamus vitae repudiandae illo architecto sequi tempora laborum at amet earum delectus vel, itaque repellat atque cupiditate est, aliquid sit nam? Aperiam fugiat vero tempora ipsam minus rerum nisi officia voluptatem, quos veniam impedit, beatae repellat? At quasi voluptates doloremque tenetur ullam id repudiandae quae similique facilis magni eius natus aut esse reiciendis minus maxime itaque, consequuntur culpa adipisci quaerat ad aliquam nisi nihil unde. Odio corrupti in enim architecto doloremque, harum impedit eveniet eum porro, culpa autem tempora numquam, nemo dolorem obcaecati. Sapiente, possimus, non, quia illum aliquam tenetur ut neque iusto accusantium delectus magni beatae assumenda obcaecati nobis? Voluptates eveniet dignissimos ea eius aliquid odio, numquam fugit iste iusto assumenda veritatis labore id perspiciatis, eaque, repudiandae unde? Magni ratione quas perspiciatis iure nesciunt in inventore! Error saepe sequi voluptatibus natus modi vitae ullam explicabo eos quis, optio, in voluptas minus! Doloribus aut ratione, odio quasi dolor reprehenderit quas libero, laboriosam veniam, quos incidunt corrupti totam laborum.</p>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary">Haz Tu Pedido</button>
-       <!-- boton redundante de cierre -->
-        <!-- <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button> -->
-      </div>
-    </div>
-  </div>
-</div>
-<!-- /modal7 -->
 </body>
 
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
 </html>
-
-
